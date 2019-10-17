@@ -25,6 +25,7 @@ public link in here. <br>
 
 Select **Web application**  
 For **Authorized JavaScript origins** put the route for where you will be calling the login from.
+
 **Authorized redirect URIs** put the output page after the consent screen
 
 ### 0Ath Consent Screen
