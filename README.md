@@ -6,7 +6,7 @@ public link in here. <br>
 ## Google Developer Console 
   Go to https://console.developers.google.com/apis/dashboard
   
- ### Making a Project and adding API
+ ### Making a Project and adding APIs
   
   Click **Create** , name project, and click **CREATE**
   
@@ -17,19 +17,15 @@ public link in here. <br>
   For <i> Authorized JavaScript origins </i> and <i> Authorized redirect URIs </i> type in the general server ip or domain and redirect URLS.
   
   
- ### Credentials
+### Credentials
  
  On the sidebar go to the Credentials tab and click the <b> Create credentials </b> dropdown --> <b> 0Auth client ID </b>
  
 * If a notice comes up that says _To create an OAuth client ID, you must first set a product name on the consent screen_ Go to the  configure consent screen page.
 
-#### Select
-* Web application
-
-  
-
-
-
+Select **Web application**  
+For **Authorized JavaScript origins** put the route for where you will be calling the login from.
+**Authorized redirect URIs** put the output page after the consent screen
 
 ### 0Ath Consent Screen
 
