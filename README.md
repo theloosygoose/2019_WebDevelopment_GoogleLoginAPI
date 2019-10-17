@@ -3,8 +3,10 @@ Repo for people in the class to donwload to implement into their website. Google
 public link in here. <br>
 
 
-## Google Developer Console
+## Google Developer Console 
   Go to https://console.developers.google.com/apis/dashboard
+  
+ ### Making a Project and adding API
   
   Click <b> Create </b>, name project, and click <b> CREATE </b>
   
@@ -15,5 +17,23 @@ public link in here. <br>
   For <i> Authorized JavaScript origins </i> and <i> Authorized redirect URIs </i> type in the general server ip or domain and redirect URLS.
   
   
+ ### Credentials
+ 
+ On the sidebar go to the Credentials tab and click the <b> Create credentials </b> dropdown --> <b> 0Auth client ID </b>
+ 
+* If a notice comes up that says <i> To create an OAuth client ID, you must first set a product name on the consent screen  </i> Go to the  configure consent screen page
+
+
+### 0Ath Consent Screen
+
+Set Application type to <b>Internal</b> to limit only users in organization to access
+
+
+  
+
+
+
+
+ 
   
 
