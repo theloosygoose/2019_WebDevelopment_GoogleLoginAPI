@@ -8,9 +8,9 @@ public link in here. <br>
   
  ### Making a Project and adding API
   
-  Click <b> Create </b>, name project, and click <b> CREATE </b>
+  Click **Create** , name project, and click **CREATE **
   
-  After finishing the creation go to <b> + ENABLE APIS AND SERVICES </b> and search for <b> Google People API </b>; click <b> ENABLE </b>
+  After finishing the creation go to **+ ENABLE APIS AND SERVICES** and search for <b> Google People API </b>; click <b> ENABLE </b>
   
   Click <b> CREATE CREDENTIALS </b> and input <b> 1. People API </b> and <b> 2. From a web browser </b> 
   
@@ -28,6 +28,9 @@ public link in here. <br>
 
 Set Application type to <b>Internal</b> to limit only users in organization to access
 
+For **Authorized domains** put down the domain of your website and **Application Homepage link** put the `index.html` route
+
+ * Follow this [link to verify your domain](https://search.google.com/search-console/welcome)
 
   
 
