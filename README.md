@@ -8,7 +8,7 @@ public link in here. <br>
   
  ### Making a Project and adding API
   
-  Click **Create** , name project, and click **CREATE **
+  Click **Create** , name project, and click **CREATE**
   
   After finishing the creation go to **+ ENABLE APIS AND SERVICES** and search for <b> Google People API </b>; click <b> ENABLE </b>
   
@@ -21,7 +21,14 @@ public link in here. <br>
  
  On the sidebar go to the Credentials tab and click the <b> Create credentials </b> dropdown --> <b> 0Auth client ID </b>
  
-* If a notice comes up that says <i> To create an OAuth client ID, you must first set a product name on the consent screen  </i> Go to the  configure consent screen page
+* If a notice comes up that says _To create an OAuth client ID, you must first set a product name on the consent screen_ Go to the  configure consent screen page.
+
+#### Select
+* Web application
+
+  
+
+
 
 
 ### 0Ath Consent Screen
