@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Login API</title>
+
+    <link rel="stylesheet" href="main.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="574258614182-19rjdt64pmliolg9qqe0s1baadiv842m.apps.googleusercontent.com">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+          <h1>Welcome</h1>
+          <h1 id="userName"></h1>
+        </header>
+        
+      <a href="#" onclick="signOut();">Sign out</a>
+      <script>
+        function signOut() {
+          var auth2 = gapi.auth2.getAuthInstance();
+          auth2.signOut().then(function () {
+            console.log('User signed out.');
+          });
+        }
+      </script>
+
+    </div>
+</body>
+  <script src="api.js"></script>
+</html>

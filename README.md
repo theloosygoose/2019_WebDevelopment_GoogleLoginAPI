@@ -10,31 +10,32 @@ public link in here. <br>
   
   Click **Create** , name project, and click **CREATE**
   
-  After finishing the creation go to **+ ENABLE APIS AND SERVICES** and search for <b> Google People API </b>; click <b> ENABLE </b>
+  After finishing the creation go to **+ ENABLE APIS AND SERVICES** and search for **Google People API**; click **ENABLE**
   
-  Click <b> CREATE CREDENTIALS </b> and input <b> 1. People API </b> and <b> 2. From a web browser </b> 
+  Click **CREATE CREDENTIALS** and input **1. People API** and **2. From a web browser** 
   
-  For <i> Authorized JavaScript origins </i> and <i> Authorized redirect URIs </i> type in the general server ip or domain and redirect URLS.
+  For *Authorized JavaScript origins* and *Authorized redirect URIs* type in the general server ip or domain and redirect URLS.
   
   
-### Credentials
+  ### Credentials
  
- On the sidebar go to the Credentials tab and click the <b> Create credentials </b> dropdown --> <b> 0Auth client ID </b>
+    On the sidebar go to the Credentials tab and click the **Create credentials** dropdown --> **0Auth client ID**
  
-* If a notice comes up that says _To create an OAuth client ID, you must first set a product name on the consent screen_ Go to the  configure consent screen page.
+    * If a notice comes up that says _To create an OAuth client ID, you must first set a product name on the consent screen_ Go to the  configure consent screen page.
 
-Select **Web application**  
-For **Authorized JavaScript origins** put the route for where you will be calling the login from.
+    Select **Web application**  
 
-**Authorized redirect URIs** put the output page after the consent screen
+    For **Authorized JavaScript origins** put the route for where you will be calling the login from.
 
-### 0Ath Consent Screen
+    **Authorized redirect URIs** put the output page after the consent screen
 
-Set Application type to <b>Internal</b> to limit only users in organization to access
+  ### 0Ath Consent Screen
 
-For **Authorized domains** put down the domain of your website and **Application Homepage link** put the `index.html` route
+    Set Application type to **Internal** to limit only users in organization to access
 
- * Follow this [link to verify your domain](https://search.google.com/search-console/welcome)
+    For **Authorized domains** put down the domain of your website and **Application Homepage link** put the `index.html` route
+
+    * Follow this [link to verify your domain](https://search.google.com/search-console/welcome)
 
   
 
