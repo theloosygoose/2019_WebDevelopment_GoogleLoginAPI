@@ -19,23 +19,23 @@ public link in here. <br>
   
   ### Credentials
  
-    On the sidebar go to the Credentials tab and click the **Create credentials** dropdown --> **0Auth client ID**
+  On the sidebar go to the Credentials tab and click the **Create credentials** dropdown --> **0Auth client ID**
  
-    * If a notice comes up that says _To create an OAuth client ID, you must first set a product name on the consent screen_ Go to the  configure consent screen page.
+  * If a notice comes up that says _To create an OAuth client ID, you must first set a product name on the consent screen_ Go to the  configure consent screen page.
 
-    Select **Web application**  
+  Select **Web application**  
 
-    For **Authorized JavaScript origins** put the route for where you will be calling the login from.
+  For **Authorized JavaScript origins** put the route for where you will be calling the login from.
 
-    **Authorized redirect URIs** put the output page after the consent screen
+  **Authorized redirect URIs** put the output page after the consent screen
 
   ### 0Ath Consent Screen
 
-    Set Application type to **Internal** to limit only users in organization to access
-
-    For **Authorized domains** put down the domain of your website and **Application Homepage link** put the `index.html` route
-
-    * Follow this [link to verify your domain](https://search.google.com/search-console/welcome)
+  Set Application type to **Internal** to limit only users in organization to access
+  
+  For **Authorized domains** put down the domain of your website and **Application Homepage link** put the `index.html` route
+  
+  * Follow this [link to verify your domain](https://search.google.com/search-console/welcome)
 
   
 
