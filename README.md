@@ -36,6 +36,38 @@ public link in here. <br>
   For **Authorized domains** put down the domain of your website and **Application Homepage link** put the `index.html` route
   
   * Follow this [link to verify your domain](https://search.google.com/search-console/welcome)
+  *Note localhost doesn't have to be verified*
+
+  ## The Code
+
+  The code for this is pretty simple add and subtract the parts that you want; Here are the must haves.
+
+ ```js   
+    function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    console.log('ID: ' + profile.getId());
+        
+    // Do not send to your backend! Use an ID token instead.
+    // Now the Name of the user is in the variable userName.
+
+    var userName = profile.getName();
+
+    document.getElementById("userName").innerHTML = userName;
+
+    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+    }
+  ```
+
+  This is the js that allows the website to fetch and implement the data form the Google Client
+
+  ```html
+        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+  ```
+
+  Button for the login 
+
+
+
 
   
 
