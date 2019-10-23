@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="../css/main.css">
 
-    <meta name="google-signin-client_id" content="465164978084-inmfr2m9ibqes2r56i8ggd2a45smdepm.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="CLIENT_ID">
 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
@@ -20,6 +20,24 @@
     <h1>Welcome</h1>
     <h1 id="userName"></h1>
 </body>
-<script src="../js/api.js"></script>
+
+<script>
+//FUNCTION For Google login. 
+    
+function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        console.log('ID: ' + profile.getId());
+        
+    // Do not send to your backend! Use an ID token instead.
+    // Now the Name of the user is in the variable userName.
+
+    var userName = profile.getName();
+
+    document.getElementById("userName").innerHTML = userName;
+
+    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+    }
+
+</script>
 
 </html>
