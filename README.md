@@ -1,6 +1,6 @@
 # 2019_WebDevelopment_GoogleLoginAPI
-Repo for people in the class to donwload to implement into their website. Google Slides Cookbook is being emailed or I might put the
-public link in here. <br>
+Repo for people in Computer Science class to download and implement into their websites.
+<br>
 
 
 ## Google Developer Console 
@@ -12,10 +12,6 @@ public link in here. <br>
   
   After finishing the creation go to **+ ENABLE APIS AND SERVICES** and search for **Google People API**; click **ENABLE**
   
-  Click **CREATE CREDENTIALS** and input **1. People API** and **2. From a web browser** 
-  
-  For *Authorized JavaScript origins* and *Authorized redirect URIs* type in the general server ip or domain and redirect URLS.
-  
   
   ### Credentials
  
@@ -25,22 +21,26 @@ public link in here. <br>
 
   Select **Web application**  
 
-  For **Authorized JavaScript origins** put the route for where you will be calling the login from.
+  For **Authorized JavaScript origins** put the domain of the website you will be calling the login from.
 
-  **Authorized redirect URIs** put the output page after the consent screen
+  **Authorized redirect URIs** put the output page after the user logs in or have it redirect to the original screen.
+
+  *Note that both of these things can be set to localhost indicated with the correct PORT*
 
   ### 0Ath Consent Screen
 
   Set Application type to **Internal** to limit only users in organization to access
   
-  For **Authorized domains** put down the domain of your website and **Application Homepage link** put the `index.html` route
+  For **Authorized domains** put down the domain of your website and **Application Homepage link** put the `index.html` or home route
   
   * Follow this [link to verify your domain](https://search.google.com/search-console/welcome)
   *Note localhost doesn't have to be verified*
 
   ## The Code
 
-  The code for this is pretty simple add and subtract the parts that you want; Here are the must haves.
+  The code for this is pretty simple add and subtract the parts that you want. 
+  
+  **Here are the must haves.**
 
  ```js   
     function onSignIn(googleUser) {
