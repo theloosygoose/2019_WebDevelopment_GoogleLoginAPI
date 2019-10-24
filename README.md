@@ -1,5 +1,5 @@
 # 2019_WebDevelopment_GoogleLoginAPI
-Repo for people in Computer Science class to download and implement into their websites.
+Repository for people in Computer Science class to download and implement into their websites.
 <br>
 
 
@@ -74,17 +74,3 @@ Repo for people in Computer Science class to download and implement into their w
   This `meta` tag is the key that allows you to open your "apartment" (Personal Google Developer Console)
 
   The `script` tag lets you into the "apartment complex" (General Google APIs)
-
-  
-
-
-
-
-  
-
-
-
-
- 
-  
-
