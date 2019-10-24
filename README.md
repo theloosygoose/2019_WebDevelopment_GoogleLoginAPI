@@ -1,4 +1,4 @@
-# 2019_WebDevelopment_GoogleLoginAPI
+# Google Login API Tutorial
 Repository for people in Computer Science class to download and implement into their websites.
 <br>
 
