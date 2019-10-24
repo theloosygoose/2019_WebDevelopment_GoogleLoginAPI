@@ -63,8 +63,19 @@ public link in here. <br>
   ```html
         <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
   ```
+  Button for Google Login 
 
-  Button for the login 
+  ```html
+    <meta name="google-signin-client_id" content="CLIENT_ID">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+  ```
+  This `meta` tag is the key that allows you to open your "apartment" (Personal Google Developer Console)
+
+  The `script` tag lets you into the "apartment complex" (General Google APIs)
+
+  
 
 
 

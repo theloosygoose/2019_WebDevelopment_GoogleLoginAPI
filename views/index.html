@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="../css/main.css">
 
-    <meta name="google-signin-client_id" content="CLIENT_ID">
+    <meta name="google-signin-client_id" content="465164978084-4trrbppfrrnfrdjk6ms0f1fh8ecrp35o.apps.googleusercontent.com">
 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
@@ -19,6 +19,7 @@
     </div>
     <h1>Welcome</h1>
     <h1 id="userName"></h1>
+    <h1 id="userMail"></h1>
 </body>
 
 <script>
@@ -32,10 +33,16 @@ function onSignIn(googleUser) {
     // Now the Name of the user is in the variable userName.
 
     var userName = profile.getName();
+    var userMail = profile.getEmail();
+
+
 
     document.getElementById("userName").innerHTML = userName;
 
+    document.getElementById("userMail").innerHTML = userMail;
+
     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+    console.log('')
     }
 
 </script>
