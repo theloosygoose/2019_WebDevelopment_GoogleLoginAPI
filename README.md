@@ -57,14 +57,12 @@ Repository for people in Computer Science class to download and implement into t
     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
     }
   ```
-
-  This is the js that allows the website to fetch and implement the data form the Google Client
+  js that allows the website to fetch and implement the data form the Google Client
 
   ```html
-        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
   ```
   Button for Google Login 
-
   ```html
     <meta name="google-signin-client_id" content="CLIENT_ID">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
